@@ -11,18 +11,19 @@ body {
 }
 
 .card {
-    background-color: rgb(212, 122, 74);
-    letter-spacing: 0.1em;
-    width: 85%;
-    margin: 100px auto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-content {
-    padding: 50px;
-    font-size: 60px;
+  background-color: rgb(212, 122, 74);
+  padding: 50px;
+  font-size: 40px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 8px;
 }
 
 h1 {
@@ -48,6 +49,7 @@ footer span {
   padding: 0 0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 .description span:hover,
 footer span:hover {
   box-shadow: inset 1000px 0 0 0 white;
@@ -58,92 +60,29 @@ footer p {
   margin: 5px;
 }
 
-
-
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1200px) {
   .card {
-    background-color: rgb(212, 122, 74);
-    letter-spacing: 0.1em;
-    width: 85%;
-    margin: 100px auto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 130px;
+    width: 80%;
+    margin: auto;
   }
-  .card-content {
-    padding: 40px;
-    font-size: 40px;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .card {
-    background-color: rgb(212, 122, 74);
-    letter-spacing: 0.5px;
-    width: 90%;
-    margin: 70px auto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 100px;
-  }
   .card-content {
-    padding: 40px;
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .card {
-    background-color: rgb(212, 122, 74);
-    letter-spacing: 0.5px;
-    width: 90%;
-    margin: 60px auto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 150px;
-  }
-  .card-content {
-    padding: 20px;
-    font-size: 27px;
-  }
-  .description span:hover,
-  footer span:hover {
-    box-shadow: none;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .card {
-    background-color: rgb(212, 122, 74);
-    width: 93%;
-    margin: 30px auto;
-    text-align: center;
-    margin-top: 100px;
-      }
-  .card-content {
-    padding: 10px;
     font-size: 20px;
   }
+}
+
+@media screen and (max-width: 970px) {
   .description span:hover,
-  footer span:hover {
+  footer span:hover,
+  .description span,
+  footer span {
     box-shadow: none;
+    background: none;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .card {
-    background-color: rgb(212, 122, 74);
-    width: 93%;
-    letter-spacing: 0.1px;
-    margin: 10px auto;
-    margin-top: 100px;
-    text-align: center;
-  }
+@media screen and (max-width: 400px) {
   .card-content {
-    padding: 10px;
-    font-size: 20px;
+    font-size: 12px;
   }
-  .description span:hover,
-  footer span:hover {
-    box-shadow: none;
-  }
+}
