@@ -54,10 +54,36 @@ footer span {
 footer span:hover {
   box-shadow: inset 1000px 0 0 0 white;
   color: #54b3d6;
+  cursor: pointer;
 }
 
 footer p {
   margin: 5px;
+}
+
+.about-me-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me-content {
+  background-color: antiquewhite;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  width: 50%;
+  border-radius: 7px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -78,6 +104,12 @@ footer p {
   footer span {
     box-shadow: none;
     background: none;
+  }
+  .about-me-content {
+    top: 0;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 15px;
   }
 }
 

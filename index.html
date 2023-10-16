@@ -3,22 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./resources/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&family=Tilt+Neon&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="script.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <title>Andrei's portofolio</title>
   </head>
   <body>
     <div class="card">
       <div class="card-content">
-        <h1>(andreiTrifu)</h1>
+        <h1>Andrei Trifu</h1>
         <p>Hi! I am a web developer based in Swindon,UK.</p>
         <div class="description">
           <p>
@@ -27,13 +34,17 @@
               <a href="www.google.com" class="work-link">WORK</a>
             </span>
           </p>
-          <p>
+          <p class="flex items-center justify-center gap-3">
             Feel free to snoop around on my
-            <span>
-              <a href="https://www.linkedin.com/in/andrei-trifu-570246220/">
-                SOCIAL MEDIA</a
-              ></span
-            >
+            <span class="text-5xl">
+              <a href="https://www.linkedin.com/in/andrei-trifu-570246220/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </span>
+            <span
+              ><a href="https://github.com/Andrei-Trifu"
+                ><i class="fa-brands fa-github"></i></a
+            ></span>
           </p>
           <p>
             For inquiries or a 'how you doing'<span><a>CONTACT ME</a></span
@@ -42,16 +53,46 @@
           <p>I will be happy to hear from you. And for you</p>
           <p>
             out there looking for a developer, check out my
-            <span><a>CV</a></span>
+            <span>
+              <a href="resources/cv.pdf" download="Andrei's CV"> CV </a>
+            </span>
           </p>
         </div>
         <footer>
           <p>P.S. If this wasn´t enough for you no worries!</p>
+          `
           <p>
-            You can also find out more <span><a>ABOUT ME</a></span> here ;)
+            You can also find out more
+            <span class="modal-on"><a>ABOUT ME</a></span> here ;)
           </p>
         </footer>
       </div>
     </div>
+    <section class="about-me-modal">
+      <div class="about-me-content">
+        <div
+          class="font-sans flex mb-6 font-extrabold text-2xl justify-between"
+        >
+          <p>About me:</p>
+          <p class="modal-off">
+            <i class="fas fa-window-close modal-toggle"></i>
+          </p>
+        </div>
+        <p>
+          I'm Andrei, a web developer with a passion for creating user-friendly
+          websites. Proficient in HTML, CSS, and JavaScript, I'm dedicated to
+          crafting seamless, responsive, and visually appealing online
+          experiences. My goal is to stay at the forefront of web development by
+          continuously learning and implementing the latest trends and
+          technologies. I'm a team player who thrives on collaboration and
+          excels in clear communication, making me an asset to any project. I'm
+          excited to contribute my skills and creativity to dynamic teams,
+          building meaningful digital solutions that make a positive impact. If
+          you're looking for a dedicated web developer to enhance your projects,
+          I'm eager to connect and discuss how I can be a valuable addition to
+          your team.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
