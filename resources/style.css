@@ -80,10 +80,12 @@ footer p {
   top: 20%;
   left: 0;
   right: 0;
-  padding: 40px;
+  /* padding: 40px; */
+  padding: 18px 18px;
   width: 50%;
   border-radius: 7px;
   margin: auto;
+  height: 55%;
 }
 
 @media screen and (max-width: 1200px) {
