@@ -88,7 +88,7 @@ footer p {
 }
 
 .about-me-modal {
-  display: none;
+  display: none;`
   position: fixed;
   top: 0;
   bottom: 0;
