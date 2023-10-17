@@ -25,7 +25,9 @@
   <body>
     <div class="card">
       <div class="card-content">
-        <h1>Andrei Trifu</h1>
+        <div class="name-animation">
+          <h1>Andrei Trifu</h1>
+        </div>
         <p>Hi! I am a web developer based in Swindon,UK.</p>
         <div class="description">
           <p>
@@ -47,7 +49,9 @@
             ></span>
           </p>
           <p>
-            For inquiries or a 'how you doing'<span><a>CONTACT ME</a></span>
+            For inquiries or a 'how you doing'<span class="contact-me-button"
+              ><a>CONTACT ME</a></span
+            >
           </p>
           <p>I will be happy to hear from you. And for you</p>
           <p>
@@ -66,6 +70,16 @@
         </footer>
       </div>
     </div>
+
+    <section class="contact-me-modal">
+      <div class="w-80 lg:text-2xl lg:w-[33rem] lg:h-[15%] contact-me-content">
+        <p class="contact-modal-off">
+          <i class="flex justify-end fas fa-window-close modal-toggle"></i>
+        </p>
+        <p><i class="fa-solid fa-envelope"></i> andrei.trifu84@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +44 7963123456</p>
+      </div>
+    </section>
 
     <section class="about-me-modal">
       <div class="about-me-content">

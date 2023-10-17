@@ -61,6 +61,32 @@ footer p {
   margin: 5px;
 }
 
+.contact-me-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-me-content {
+  background-color: antiquewhite;
+  font-size: px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  padding: 18px 18px;
+  width: 30%;
+  border-radius: 7px;
+  margin: auto;
+  height: 20%;
+}
+
 .about-me-modal {
   display: none;
   position: fixed;
@@ -80,7 +106,6 @@ footer p {
   top: 20%;
   left: 0;
   right: 0;
-  /* padding: 40px; */
   padding: 18px 18px;
   width: 50%;
   border-radius: 7px;
