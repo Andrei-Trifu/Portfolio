@@ -14,10 +14,15 @@ fetch("./js/portfolio.json")
             <img class="rounded-[20px] w-full h-full" alt="'A webpage with one row and three columns " src="${project.img}"/>
         </div> 
         <div class='w-[80%] p-2 rounded-[20px] card-text'>
-          <div class='mt-2 mb-3 flex gap-1 w-6'>
-            <img src=${project.icons[0]} />
-            <img src=${project.icons[1]} />
-            <img src=${project.icons[2]} />
+          <div class='flex justify-between'>
+            <div class='mt-2 mb-2 flex gap-1 w-6'>
+              <img src=${project.icons[0]} />
+              <img src=${project.icons[1]} />
+              <img src=${project.icons[2]} />
+            </div>
+            <div class='eye w-6'>
+                <img class='w-full' src=${project.icons[3]} />
+            </div>
           </div>
           <div>
             <p class='text-xl'>${project.title}<\p>
@@ -27,6 +32,8 @@ fetch("./js/portfolio.json")
       </div>`;
 
       displayTarget.innerHTML = output;
+
+      goToGithub();
     });
   });
 
@@ -37,3 +44,13 @@ window.addEventListener("scroll", function (e) {
     document.querySelector(".text-center").classList.remove("test");
   }
 });
+
+const goToGithub = () => {
+  let selector = document.querySelectorAll(".eye");
+
+  selector.forEach(function (item) {
+    item.addEventListener("click", () => {
+      window.location.href = "https://github.com/Andrei-Trifu/Portfolio";
+    });
+  });
+};

@@ -6,7 +6,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   },
   {
@@ -16,7 +17,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   },
   {
@@ -26,7 +28,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   },
   {
@@ -36,7 +39,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   },
   {
@@ -46,7 +50,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   },
   {
@@ -56,7 +61,8 @@
     "icons": [
       "./resources/images/html.png",
       "./resources/images/css.jpg",
-      "./resources/images/jsc.webp"
+      "./resources/images/jsc.webp",
+      "./resources/images/eye.jpg"
     ]
   }
 ]
