@@ -27,6 +27,13 @@ fetch("./js/portfolio.json")
       </div>`;
 
       displayTarget.innerHTML = output;
-      console.log(project);
     });
   });
+
+window.addEventListener("scroll", function (e) {
+  if (window.scrollY > 40) {
+    document.querySelector(".text-center").classList.add("test");
+  } else {
+    document.querySelector(".text-center").classList.remove("test");
+  }
+});
