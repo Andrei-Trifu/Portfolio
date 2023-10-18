@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/portfolio.js" defer></script>
+    <title>Portfolio page</title>
+  </head>
+  <body class="bg-white mb-[100px]">
+    <div
+      class="border-black sticky top-0 z-[1] text-5xl text-center bg-white p-10"
+    >
+      <h1>Portfolio</h1>
+    </div>
+
+    <div>
+      <p class="ml-5 p-6 text-2xl">
+        Here's a few projects I've been working on:
+      </p>
+
+      <div
+        class="display flex flex-col gap-40 p-6 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-20 lg:gap-y-40"
+      ></div>
+    </div>
+  </body>
+</html>
+
+<style>
+  .card-container {
+    box-shadow: 9px -10px 15px -5px #0000002b;
+    border-radius: 20px;
+  }
+
+  .card-text {
+    position: absolute;
+    right: 0;
+    background: white;
+    margin: -110px auto;
+    height: 63%;
+    box-shadow: -11px 8px 15px -5px #0000002b;
+    padding: 20px;
+  }
+
+  .card-project-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+</style>

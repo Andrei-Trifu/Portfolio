@@ -1,0 +1,62 @@
+[
+  {
+    "title": "My first webpage",
+    "img": "./resources/images/todo.jpg",
+    "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  },
+  {
+    "title": "My first project",
+    "img": "./resources/images/Project_1.png",
+    "description": "The first solo project we had to complete after 3 weeks of training",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  },
+  {
+    "title": "Project name",
+    "img": "./resources/images/how.jpeg",
+    "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  },
+  {
+    "title": "Project name",
+    "img": "./resources/images/fast.png",
+    "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  },
+  {
+    "title": "Project name",
+    "img": "./resources/images/happy.png",
+    "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  },
+  {
+    "title": "Project name",
+    "img": "./resources/images/cod.jpeg",
+    "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
+    "icons": [
+      "./resources/images/html.png",
+      "./resources/images/css.jpg",
+      "./resources/images/jsc.webp"
+    ]
+  }
+]
