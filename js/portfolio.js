@@ -1,6 +1,6 @@
 const displayTarget = document.querySelector(".display");
 
-fetch("./js/portfolio.json")
+fetch("../js/portfolio.json")
   .then((response) => {
     return response.json();
   })

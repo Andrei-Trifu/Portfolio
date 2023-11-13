@@ -1,68 +1,68 @@
 [
   {
     "title": "My first webpage",
-    "img": "./resources/images/todo.jpg",
+    "img": "./images/todo.jpg",
     "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   },
   {
     "title": "My first project",
-    "img": "./resources/images/Project_1.png",
+    "img": "./images/Project_1.png",
     "description": "The first solo project we had to complete after 3 weeks of training",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   },
   {
     "title": "Project name",
-    "img": "./resources/images/how.jpeg",
+    "img": "./images/how.jpeg",
     "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   },
   {
     "title": "Project name",
-    "img": "./resources/images/fast.png",
+    "img": "./images/fast.png",
     "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   },
   {
     "title": "Project name",
-    "img": "./resources/images/happy.png",
+    "img": "./images/happy.png",
     "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   },
   {
     "title": "Project name",
-    "img": "./resources/images/cod.jpeg",
+    "img": "./images/cod.jpeg",
     "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a publishing and graphic design.",
     "icons": [
-      "./resources/images/html.png",
-      "./resources/images/css.jpg",
-      "./resources/images/jsc.webp",
-      "./resources/images/eye.jpg"
+      "./images/html.png",
+      "./images/css.jpg",
+      "./images/jsc.webp",
+      "./images/eye.jpg"
     ]
   }
 ]
